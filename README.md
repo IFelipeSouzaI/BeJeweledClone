@@ -20,5 +20,5 @@ Linkedin Ability Showcase - Bejeweled Clone
 # Other Features (AllDone):
 - Sfx and Musics;
 - Display of: Score and BestCombo (Score calculation = 20+(numOfMatchs-3)x20);
-- BonusBar (If the player reaches an assigned score, a random row or column will be destroyed giving point to the player);
+- BonusBar (If the player reaches an assigned score, a random row and column will be destroyed giving points to the player);
 
