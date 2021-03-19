@@ -1,10 +1,13 @@
 # BeJeweledClone
 Linkedin Ability Showcase - Bejeweled Clone
 
+# To Play the Game:
+- Go to Bejeweled Clone -> Builds -> Windows -> v2.10
+
 # The Assets Are:
 - Sprites: Made by myself
 - SFX: https://mixkit.co/free-sound-effects/ (Video Game Mystery Alert, Quick Jump Arcade Game, Casino Bling Achievement, Arcade Game Jump Coin)
-- Music: 
+- Music: https://www.bensound.com/royalty-free-music/world-others (The Elevator Bossa Nova)
 
 # Implementation:
 - Board 8x8 with 5 possible pieces (5 colors) - Done;
