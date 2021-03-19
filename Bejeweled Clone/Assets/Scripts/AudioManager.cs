@@ -5,6 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {  
     public Sound[] sfx = new Sound[2];
+    public AudioSource music;
 
     void Awake()
     {
@@ -31,6 +32,14 @@ public class AudioManager : MonoBehaviour
                 return;
             }
             s.source.Play();
+        }
+    }
+
+    public void MusicOnOff(){
+        if(CanvasManager.Music){
+            music.Play();
+        }else{
+            music.Stop();
         }
     }
 

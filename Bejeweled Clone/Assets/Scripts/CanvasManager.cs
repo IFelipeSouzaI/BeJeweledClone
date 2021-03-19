@@ -44,5 +44,11 @@ public class CanvasManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void SfxOnOff(){
+        SFX = !SFX;
+    }
+    public void MusicOnOff(){
+        Music = !Music;
+    }
 
 }

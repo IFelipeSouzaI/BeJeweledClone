@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - BoardManager
     - CanvasManager
     - Jewel
+    - On_OffButton
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -48,6 +49,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 91
@@ -67,19 +70,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12278}
     - Class: 114
-      Script: {instanceID: 12664}
+      Script: {instanceID: 12666}
     - Class: 114
-      Script: {instanceID: 12982}
+      Script: {instanceID: 12984}
     - Class: 114
-      Script: {instanceID: 13744}
+      Script: {instanceID: 13746}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 13788}
     - Class: 114
-      Script: {instanceID: 14360}
+      Script: {instanceID: 14362}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 14374}
     - Class: 114
-      Script: {instanceID: 14404}
+      Script: {instanceID: 14406}
+    - Class: 114
+      Script: {instanceID: 17658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -347,7 +352,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 58cad287b3e36a0c606bf31714934da8
+      Hash: 817a629de60bf368d133bc7b0508bc9c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioManager
@@ -603,8 +608,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 16e95aca0ae87f269cb43528551f3131
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: On_OffButton
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/pkmla/Documents/Unity Projects/Bejeweled Clone/Builds/Windows/v2.00/Bejeweled
+  playerPath: C:/Users/pkmla/Documents/Unity Projects/Bejeweled Clone/Builds/Windows/v2.10/Bejeweled
     Clone.exe
